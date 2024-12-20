@@ -1,0 +1,3 @@
+The issue was likely due to a problem with how Next.js handled client-side versus server-side navigation. While the original code may work correctly when using an internal link, a direct URL could be missing some essential setup. 
+
+To fix this you may need to ensure that both the client-side and server-side routes are defined and handled correctly.  This is often a matter of ensuring your file structure is mapped and set up correctly within the `app` directory and verifying proper handling of dynamic routes and layouts if applicable.  Next.js 15's App Router requires a deliberate structure to avoid such pitfalls.
